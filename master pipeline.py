@@ -10,10 +10,11 @@ from randextract import ToeplitzHashing
 # ==============================================================================
 # PATHS AND PARAMETERS
 # ==============================================================================
-DOWNLOADS_DIR = r"C:\Users\HP\Downloads"
+DOWNLOADS_DIR = r"C:\Users\HP\Downloads"      #path to make the plots
 PLOTS_DIR = "plots"
 os.makedirs(PLOTS_DIR, exist_ok=True)
 
+# Input CSV files for analysis
 POWER_GROUPS = {
     "Elec_Noise": ["Tek000_ALL.csv", "Tek001_ALL.csv", "Tek002_ALL.csv"],
     "0.5_mW":     ["Tek003_ALL.csv", "Tek004_ALL.csv", "Tek005_ALL.csv"],
